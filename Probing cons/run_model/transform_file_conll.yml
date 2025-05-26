@@ -1,0 +1,8 @@
+transform: 
+  transform_func: coNLL_ner_pos_to_tsv
+  read_file_names:
+    - coNLL_cons_train.txt
+    - coNLL_cons_dev.txt
+    - coNLL_cons_test.txt
+  read_dir: conll_data
+  save_dir: content/data

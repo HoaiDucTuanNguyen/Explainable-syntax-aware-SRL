@@ -1,0 +1,15 @@
+constituency: 
+  model_type: BERT
+  config_name: bert-base-uncased
+  dropout_prob: 0.2
+  label_map_or_file: content/data/ner_coNLL_cons_train_label_map.joblib
+  metrics:
+  - seqeval_f1_score
+  - seqeval_precision
+  - seqeval_recall
+  loss_type: NERLoss
+  task_type: NER
+  file_names:
+  - ner_coNLL_cons_train.tsv
+  - ner_coNLL_cons_dev.tsv
+  - ner_coNLL_cons_test.tsv
