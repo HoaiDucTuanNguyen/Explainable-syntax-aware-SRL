@@ -1,0 +1,16 @@
+general domain:
+
+- dependency corpus: https://doi.org/10.35111/m5b6-4m82
+Silveira, Natalia, Timothy Dozat, Marie-Catherine de Marneffe, Samuel Bowman, Miriam Connor, John Bauer, and Christopher D. Manning.
+A Gold Standard Dependency Corpus for English.
+In Proceedings of LREC 2014. Reykjavik, Iceland, 2014.
+
+- constituency corpus: https://anc.org/data/masc/
+de, Nancy, Christiane Fellbaum, Collin Baker, Christiane D. Smith, and Piek Vossen.
+The Manually Annotated Sub-Corpus: A Community Resource for and by the People.
+In Proceedings of the ACL 2010 Conference Short Papers, pp. 68–73.
+Association for Computational Linguistics, 2010.
+https://aclanthology.org/P10-2013/
+
+- SRL corpus Ontonote 5
+	Towards Robust Linguistic Analysis using OntoNotes — Pradhan, Sameer; Moschitti, Alessandro; Xue, Nianwen; Ng, Hwee Tou; Björkelund, Anders; Uryupina, Olga; Zhang, Yuchen; Zhong, Zhi. Proceedings of the Seventeenth Conference on Computational Natural Language Learning (CoNLL-2013), 2013.
