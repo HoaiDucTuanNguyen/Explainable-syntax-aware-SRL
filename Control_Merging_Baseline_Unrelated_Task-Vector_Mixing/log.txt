@@ -1,0 +1,34 @@
+Writing logs to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/log.txt.
+Loading [94mnlp[0m dataset [94myelp_polarity[0m, split [94mtrain[0m.
+Loading [94mnlp[0m dataset [94myelp_polarity[0m, split [94mtest[0m.
+Loaded dataset. Found: 2 labels: ([0, 1])
+Loading transformers AutoModelForSequenceClassification: bert-base-uncased
+Tokenizing training data. (len: 560000)
+Tokenizing eval data (len: 38000)
+Loaded data and tokenized in 720.6436557769775s
+Using torch.nn.DataParallel.
+Training model across 4 GPUs
+Wrote original training args to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/train_args.json.
+***** Running training *****
+	Num examples = 560000
+	Batch size = 16
+	Max sequence length = 256
+	Num steps = 175000
+	Num epochs = 5
+	Learning rate = 5e-05
+Eval accuracy: 95.95263157894736%
+Best acc found. Saved model to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/.
+Eval accuracy: 96.59473684210526%
+Best acc found. Saved model to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/.
+Eval accuracy: 96.69473684210527%
+Best acc found. Saved model to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/.
+Eval accuracy: 96.91052631578947%
+Best acc found. Saved model to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/.
+Eval accuracy: 96.99473684210527%
+Best acc found. Saved model to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/.
+Finished training. Re-loading and evaluating model from disk.
+Loading transformers AutoModelForSequenceClassification: bert-base-uncased
+Eval of saved model accuracy: 96.99473684210527%
+Saved tokenizer <textattack.models.tokenizers.auto_tokenizer.AutoTokenizer object at 0x7fcc548eb730> to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/.
+Wrote README to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/README.md.
+Wrote final training args to /p/qdata/jm8wx/research/text_attacks/textattack/outputs/training/bert-base-uncased-yelp_polarity-2020-07-08-10:42/train_args.json.
